@@ -1,17 +1,16 @@
-#include stdio.h
-#include math.h
+#include <stdio.h>
+#include <math.h>
 
-int main(void)
+void main()
 /*ae(t)as(w)*/
 {
  float t, w, y, x;
- printf(entre com o valor de T );
- scanf(%f, &t);
- y = t2+4;
- x = 2t-4;
- w = 2t+4y-3x;
- printf(o valor de W sera de %.2F, w);
+ printf("entre com o valor de T: ");
+ scanf("%f", &t);
+ y = t*2+4;
+ x = 2*t-4;
+ w = 2*t+4*y-3*x;
+ printf("o valor de W sera de %.2f", w);
  
     
-return 0;
 }
