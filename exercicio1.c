@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /*ae(lado)as(area, perimetro)*/
